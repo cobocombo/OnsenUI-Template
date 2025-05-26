@@ -15,7 +15,7 @@ class OnsenUIController: UIViewController
     let webView = WKWebView(frame: view.bounds, configuration: webViewConfig);
     webView.autoresizingMask = [ .flexibleWidth, .flexibleHeight];
     
-    if let htmlPath = Bundle.main.path(forResource: "index", ofType: "html")
+    if let htmlPath = Bundle.main.path(forResource: "app", ofType: "html")
     {
       let fileURL = URL(fileURLWithPath: htmlPath);
       let fileDirectory = fileURL.deletingLastPathComponent();
