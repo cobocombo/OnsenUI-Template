@@ -18,7 +18,7 @@ let package = Package(
             targets: ["AppModule"],
             displayVersion: "1.0",
             bundleVersion: "1",
-            appIcon: .placeholder(icon: .bunny),
+            appIcon: .asset("AppIcon"),
             accentColor: .presetColor(.pink),
             supportedDeviceFamilies: [
                 .pad,
@@ -34,14 +34,14 @@ let package = Package(
     ],
     targets: [
         .executableTarget(
-          name: "AppModule",
-          path: ".",
-          resources: [
-            .process("Resources")
-          ],
-          swiftSettings: [
-          .enableUpcomingFeature("BareSlashRegexLiterals")
-          ]
+            name: "AppModule",
+            path: ".",
+            resources: [
+                .process("Resources")
+            ],
+            swiftSettings: [
+                .enableUpcomingFeature("BareSlashRegexLiterals")
+            ]
         )
     ]
 )
