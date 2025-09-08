@@ -1,6 +1,6 @@
 # OnsenUI Template
 
-A simple Xcode project where [OnsenUI](https://onsen.io) is already configured in a simple UIKit webview.
+A simple Swift Playground where [OnsenUI](https://onsen.io) is already configured in a simple UIKit webview.
 
 ## iPhone 
 <img src="Images/iPhone.png" alt="iPhone Image" width="300">
